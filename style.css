@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.background-img {
+  background: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 110vh;
+}
+
+#Home {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.aniket-gaikwad {
+  margin-top: 40px;
+  font-size: 1.8rem;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0.3cm;
+  font-weight: 550;
+  color: #edd0b0;
+}
+
+.ajinkya {
+  color: #fe6426;
+  margin-top: -30px;
+  font-weight: 800;
+  letter-spacing: 0.4cm;
+  font-size: 10rem;
+  font-family: "Heebo", sans-serif;
+}
+.enter-site {
+  margin-top: 100px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.enter-site li {
+  list-style: none;
+  padding: 10px 50px;
+}
+
+.enter-site li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #edd0b0;
+}
+
+.btn {
+  border-radius: 50px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid#edd0b0;
+}
+
+.btn:hover:hover {
+  box-shadow: 0 0 5px #fe6426, 0 0 20px #fe6426, 0 0 50px #fe6426,
+    0 0 100px#fe6426;
+}
+
+@media only screen and (min-width: 390px) and (max-width: 850px) {
+  .background-img {
+    background: url(img/mobile-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  #Home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+  }
+  .aniket-gaikwad {
+    font-size: 1rem;
+    margin-top: 20px;
+    font-family: "Heebo", sans-serif;
+    letter-spacing: 0.1cm;
+    color: #edd0b0;
+  }
+  .ajinkya {
+    color: #fe6426;
+    margin-top: -10px;
+    font-weight: 800;
+    letter-spacing: 0.2cm;
+    font-size: 4rem;
+    font-family: "Heebo", sans-serif;
+  }
+
+  .enter-site {
+
+    position: absolute;
+    cursor: pointer;
+    bottom: 140px;
+ 
+  }
+}
